@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ruarapaw/blife.ruarman.com/
+    - /bin/cp * $DEPLOYPATH
